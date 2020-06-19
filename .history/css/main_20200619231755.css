@@ -149,7 +149,7 @@ header .nav a:hover {
 .intro-section .skew {
   transform: skew(52deg);
   position: absolute;
-  height: 121%;
+  height: 114%;
   left: 30%;
   animation: myskew 2s 1 ease;
   animation-fill-mode: forwards;
@@ -171,7 +171,7 @@ header .nav a:hover {
   transition-delay: 3s;
 }
 .intro-section .carousel-inner {
-  height: 565px;
+  height: 600px;
 }
 .carousel-indicators{
   right: 42%;

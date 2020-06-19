@@ -1,0 +1,99 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css?family=Coda');
+
+body{
+    background-color: $main-color;
+}
+
+header{
+    background-color: $second-color;
+    height: 100px;
+    font-family: $main-font;
+        .name{
+            position: absolute;
+            left: 5%;
+            top: 3%;
+            color: $main-font-color;
+            font-weight: bolder;
+        }
+        .title{
+            position: absolute;
+            top: 6%;
+            left: 5%;
+            color: $main-font-color;
+            font-size: 0.9em;
+        }
+        .follow{
+            position: absolute;
+            left: 258px;
+            top: 35px;
+            border-radius: 5px;
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-right: 15px;
+            padding-left: 3px;
+        }
+        .arrow-left{
+            position: absolute;
+            left: -10%;
+            top: 4px;
+        }
+        i {
+            color:white;
+            padding:0 10px;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        .nav ul {
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 10px;
+            right: 0;
+            font-size:0px;
+        }
+        .nav ul li {
+            font-size:12pt;
+            display:inline-block;
+            padding:15px;
+            transition: all 0.2s ease-in-out;
+        }
+        .nav ul li a {
+            font-family: FontAwesome;
+            color:#eee;
+            font-size:22pt;
+            text-decoration: none;
+        }
+        .nav ul .home .about .code .contact {
+            background: black;
+        }
+        
+        .nav ul li i {
+            display: block;
+        }
+        .nav ul li a {
+            display: none;
+        }
+        .nav ul li:hover i {
+            display: none;
+        }
+        .nav ul li:hover a {
+            display: block;
+        }
+        .nav a:hover {
+            color: #fff;
+        }
+}
+
+.intro-section{
+    background-color: $main-color;
+    .skew{
+        transform: skew(45deg);
+        position: absolute;
+        left: 37%;
+    }
+
+}
+

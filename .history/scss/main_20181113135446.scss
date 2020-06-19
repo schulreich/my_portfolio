@@ -1,0 +1,17 @@
+@import "variables";
+
+body{
+background-color: $main-color;
+    header{
+        background-color: $secondary-color;
+            .name{
+                position: absolute;
+                left: 20%;
+            }
+            .title{
+                position: absolute;
+                top: 3%;
+                left: 20%;
+            }
+    }
+}

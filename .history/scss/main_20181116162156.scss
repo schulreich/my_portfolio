@@ -1,0 +1,150 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css?family=Coda');
+@keyframes mymove {
+    0%   {left: 16%;}
+    100% {left: 26%;}
+}
+@keyframes myskew{
+    0% {transform: skew(52deg);}
+    100% {transform: skew(0deg);}
+}
+@keyframes myfade{
+    0% {opacity: 0;}
+    25% {opacity: 0;}
+    50% {opacity: 0.6;}
+    75% {opacity: 0.8;}
+    100% {opacity: 1;}
+}
+
+
+body{
+    background-color: $main-color;
+}
+
+header{
+    background-color: $second-color;
+    height: 150px;
+    font-family: $main-font;
+        .name{
+            position: absolute;
+            left: 5%;
+            top: 3%;
+            color: $main-font-color;
+            font-weight: bolder;
+        }
+        .title{
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            color: $main-font-color;
+            font-size: 0.9em;
+        }
+        .follow{
+            position: absolute;
+            left: 230px;
+            top: 4%;
+            border-radius: 5px;
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-right: 15px;
+            padding-left: 3px;
+        }
+        .arrow-left{
+            position: absolute;
+            left: -10%;
+            top:18%;
+        }
+        .nav-icon {
+            color:lime;
+        }
+        i{
+            padding: 0 10px;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        .nav ul {
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 10px;
+            right: 0;
+            font-size:0px;
+        }
+        .nav ul li {
+            font-size:12pt;
+            display:inline-block;
+            padding:15px;
+            transition: all 0.2s ease-in-out;
+        }
+        .nav ul li a {
+            font-family: FontAwesome;
+            color:lime;
+            font-size:22pt;
+            text-decoration: none;
+        }
+        .nav ul .home .about .code .contact {
+            background: black;
+        }
+        
+        .nav ul li i {
+            display: block;
+        }
+        .nav ul li a {
+            display: none;
+        }
+        .nav ul li:hover i {
+            display: none;
+        }
+        .nav ul li:hover a {
+            display: block;
+        }
+        .nav a:hover {
+            color:lime;
+        }
+}
+
+.intro-section{
+    background-color: $main-color;
+
+
+    .intro{
+        background-color: $main-color;
+        top: 120px;
+    }
+
+    .skew{
+        transform: skew(52deg);
+        position: absolute;
+        left: 34%;
+       animation: myskew 2s 1 ease;
+        animation-fill-mode: forwards;
+    }
+    .rounded-circle{
+    position: absolute;
+    border: solid 5px black;
+    height: 300px;
+    width: 300px;
+    left: 16%;
+    top: 40%;
+    animation: mymove 2s 1 ease;
+    animation-fill-mode: forwards;
+    }
+    /*}
+    .rounded-circle:hover{
+        left: 25%;
+        transition: 2s left;
+    }*/ 
+    .personal-information{
+        position: relative;
+        top: 200px;
+        animation: myfade 5s 1 ease;
+        transition-delay: 3s;
+    }
+    .skill-icon{
+        position: relative;
+        left: 40%;
+    }
+}
+

@@ -1,0 +1,26 @@
+@import "variables";
+
+body{
+    background-color: $main-color;
+}
+
+header{
+    background-color: $second-color;
+    height: 100px;
+        .name{
+            position: absolute;
+            left: 20%;
+            top: 3%;
+            color: $main-font-color
+        }
+        .title{
+            position: absolute;
+            top: 6%;
+            left: 20%;
+            color: $main-font-color;
+        }
+        nav{
+            position: absolute;
+            left:70%;
+        }
+}

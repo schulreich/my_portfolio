@@ -11,7 +11,7 @@
 @media screen and (max-width: 1024px){
   @keyframes mymove{
       0%   {left: 16%;}
-      100% {left: 12%;}
+      100% {left: 15%;}
   }
 }
 
@@ -166,7 +166,7 @@ header .nav a:hover {
   .intro-section .skew {
     transform: skew(52deg);
     position: absolute;
-    height: 128%;
+    height: 141%;
     left: 26%;
     animation: myskew 2s 1 ease;
     animation-fill-mode: forwards;

@@ -5,14 +5,6 @@
     100% {left: 31%;}
 }
 
-@media screen and (max-width: 1024px){
-    @keyframes mymove{
-        0%   {left: 16%;}
-        100% {left: 20%;}
-    }
-}
-
-
 @keyframes myskew{
     0% {transform: skew(52deg);}
     100% {transform: skew(0deg);}

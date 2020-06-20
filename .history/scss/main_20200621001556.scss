@@ -2,16 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Coda');
 @keyframes mymove {
     0%   {left: 16%;}
-    100% {left: 31%;}
+    100% {left: 25%;}
 }
-
-@media screen and (max-width: 1024px){
-    @keyframes mymove{
-        0%   {left: 16%;}
-        100% {left: 20%;}
-    }
-}
-
 
 @keyframes myskew{
     0% {transform: skew(52deg);}

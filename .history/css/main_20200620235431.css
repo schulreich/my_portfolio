@@ -4,17 +4,9 @@
     left: 16%;
   }
   100% {
-    left: 31%;
+    left: 25%;
   }
 }
-
-@media screen and (max-width: 1024px){
-  @keyframes mymove{
-      0%   {left: 16%;}
-      100% {left: 12%;}
-  }
-}
-
 @keyframes myskew {
   0% {
     transform: skew(52deg);
@@ -162,22 +154,12 @@ header .nav a:hover {
   animation: myskew 2s 1 ease;
   animation-fill-mode: forwards;
 }
-@media screen and (max-width: 1024px){
-  .intro-section .skew {
-    transform: skew(52deg);
-    position: absolute;
-    height: 128%;
-    left: 26%;
-    animation: myskew 2s 1 ease;
-    animation-fill-mode: forwards;
-  }
-}
 .intro-section .rounded-circle {
   position: absolute;
   border: solid 5px black;
   height: 300px;
   width: 300px;
-  left: 20%;
+  left: 10%;
   top: 33%;
   animation: mymove 2s 1 ease;
   animation-fill-mode: forwards;
@@ -221,12 +203,6 @@ header .nav a:hover {
 .intro-section .thumbnail {
   width: 200px;
   height: 200px;
-}
-@media screen and (max-width: 1024px){
-  .intro-section .thumbnail {
-    width: 200px;
-    height: 105px;
-  }
 }
 
 

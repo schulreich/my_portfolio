@@ -178,19 +178,19 @@ header .nav a:hover {
 
 @media screen and (max-width: 768px){
   .modal-align{
-    padding-left: 3rem;
+    padding: 1rem;
   }
 }
 
 @media screen and (max-width: 575px){
   .modal-align{
-    padding-left: 1rem;
+    padding: 1rem;
   }
 }
 
 @media screen and (max-width: 360px){
   .modal-align{
-    padding-left: 1rem;
+    padding: 1rem;
   }
 }
 

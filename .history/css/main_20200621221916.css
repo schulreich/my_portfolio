@@ -18,7 +18,7 @@
 @media screen and (max-width: 360px){
   @keyframes mymove{
       0%   {left: 0%;}
-      100% {left: 27%;}
+      100% {left: 16%;}
   }
 }
 

@@ -160,7 +160,7 @@ header .nav a:hover {
 
 @media screen and (max-width: 575px){
   .modal-img{
-    width: 500px;
+    width: 525px;
     height: 200px;
   }
 }

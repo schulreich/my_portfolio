@@ -29,13 +29,6 @@
   }
 }
 
-@media screen and (max-width: 575px){
-  @keyframes mymove{
-      0%   {left: 0%;}
-      100% {left: 29%;}
-  }
-}
-
 @keyframes myskew {
   0% {
     transform: skew(52deg);
